@@ -1,0 +1,23 @@
+.cart-container {
+  display: block;
+  width: 40px;
+  height: fit-content;
+  position: absolute;
+  top: 40px;
+  right: 30px;
+}
+
+.profile-container {
+  display: block;
+  width: 40px;
+  height: fit-content;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+}
+
+.logo {
+  width: auto;
+  height: auto;
+  text-align: center;
+}
