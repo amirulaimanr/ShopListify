@@ -1,0 +1,29 @@
+.banner-container {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.tag-line {
+  display: inline-block;
+  position: absolute;
+  top: 420px;
+  right: 35%;
+  font-size: 30px;
+}
+
+img {
+  position: relative;
+  max-width: 100%;
+}
+
+.col-container {
+  padding: 10px;
+}
+
+.features-container {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 100px;
+}

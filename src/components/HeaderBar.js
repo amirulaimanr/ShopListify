@@ -4,6 +4,8 @@ import "primeicons/primeicons.css";
 
 import "../assets/style/headerBar/headerBar.css";
 
+import { Link } from "react-router-dom";
+
 class HeaderBar extends Component {
   render() {
     return (
@@ -11,7 +13,7 @@ class HeaderBar extends Component {
         <div className="relative card-container yellow-container">
           <div className="block font-bold text-center p-4 h-7rem">
             <div className="header-title text-black">
-              <h2>ShopListify</h2>
+              <div>ShopListify</div>
             </div>
 
             {/* cart topbar */}
@@ -38,9 +40,11 @@ class HeaderBar extends Component {
               </div>
             </div>
           </div>
+
+          {/* menu bar */}
           <div className="card">
-            <div className="relative card-container green-container menu-container">
-              <div className="block font-bold text-center p-4 h-6rem">
+            <div className="relative menu-container">
+              <div className="block font-bold text-center p-4 h-6rem menu-content">
                 <div className="menu-bar">
                   <div className="menu container">
                     <div className="menu-item">
