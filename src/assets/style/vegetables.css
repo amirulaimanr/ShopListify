@@ -1,0 +1,98 @@
+.dFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vegetables {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 70%;
+  height: 100%;
+  margin: 50px auto;
+  padding: 50px 0 0;
+  box-sizing: border-box;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-veg {
+  width: 20%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  transform: scale(0.8);
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 50px;
+}
+
+.card-img {
+  margin-top: -5vw;
+}
+
+.card-img img {
+  width: 100px;
+}
+
+.card_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  margin: 25px 0;
+}
+
+.card_header h2 {
+  font-size: 18px;
+}
+
+.card_header p {
+  font-size: 14px;
+  text-align: center;
+  color: rgba(rgb(105, 105, 105));
+  margin: 8px 0;
+}
+
+.price {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(196, 142, 40);
+}
+
+.price span {
+  font-size: 15px;
+  font-weight: 500;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card-veg:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.card-veg:hover .btn {
+  background-color: rgb(103, 190, 66);
+  color: black;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 130px;
+  height: 35px;
+  font-size: 14px;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s ease;
+  overflow: hidden;
+}

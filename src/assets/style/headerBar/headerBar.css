@@ -70,6 +70,7 @@ ul {
   list-style-type: none;
 }
 li {
+  display: flex;
   font-size: 18px;
   color: white;
   margin-left: 55px;

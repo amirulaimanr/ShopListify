@@ -5,7 +5,7 @@ const product_card = [
     description: "lorem ipsum",
     price: 100,
     currency: "MYR",
-    image: "https://img.crofarm.com/images/prodsmall/f2e0abcb5a5f.jpg",
+    image: "https://img.crofarm.com/images/prodsmall/f10a10d710d5.jpg",
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const product_card = [
     description: "lorem ipsum",
     price: 200,
     currency: "MYR",
-    image: "https://img.crofarm.com/images/prodsmall/f2e0a98d124e.jpg",
+    image: "https://img.crofarm.com/images/prodsmall/eabd66484d46.jpg",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const product_card = [
     description: "lorem ipsum",
     price: 300,
     currency: "MYR",
-    image: "https://img.crofarm.com/images/prodsmall/efa0e311ed3e.jpg",
+    image: "https://img.crofarm.com/images/prodsmall/eabd6624add8.jpg",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const product_card = [
     description: "lorem ipsum",
     price: 400,
     currency: "MYR",
-    image: "https://img.crofarm.com/images/prodsmall/f2e0aa82de86.jpg",
+    image: "https://img.crofarm.com/images/prodsmall/f06c81404c26.jpg",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const product_card = [
     description: "lorem ipsum",
     price: 500,
     currency: "MYR",
-    image: "https://img.crofarm.com/images/prodsmall/f2e0aabbda76.jpg",
+    image: "https://img.crofarm.com/images/prodsmall/f06c837837cb.jpg",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const product_card = [
     description: "lorem ipsum",
     price: 600,
     currency: "MYR",
-    image: "https://img.crofarm.com/images/prodsmall/eae080be7859.jpg",
+    image: "https://img.crofarm.com/images/prodsmall/f10a10d710d5.jpg",
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ const product_card = [
     description: "lorem ipsum",
     price: 600,
     currency: "MYR",
-    image: "https://img.crofarm.com/images/prodsmall/ef881e7e2712.jpg",
+    image: "https://img.crofarm.com/images/prodsmall/f3fb0cea3d88.jpg",
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ const product_card = [
     description: "lorem ipsum",
     price: 600,
     currency: "MYR",
-    image: "https://img.crofarm.com/images/prodsmall/eab0d8880b63.jpg",
+    image: "https://img.crofarm.com/images/prodsmall/f06c837837cb.jpg",
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ const product_card = [
     description: "lorem ipsum",
     price: 600,
     currency: "MYR",
-    image: "https://img.crofarm.com/images/prodsmall/eab0daa1a364.jpg",
+    image: "https://img.crofarm.com/images/prodsmall/f126f1d49534.jpg",
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ const product_card = [
     description: "lorem ipsum",
     price: 600,
     currency: "MYR",
-    image: "https://img.crofarm.com/images/prodsmall/ef8e52f599b7.jpg",
+    image: "https://img.crofarm.com/images/prodsmall/efe1ced8967e.jpg",
   },
 ];
 

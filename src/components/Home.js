@@ -14,13 +14,6 @@ export default function Home() {
       {/* banner pictures */}
       <div className="banner-container">
         <img src={require("../assets/img/banner.jpg")} />
-        <div className="head-banner">
-          <img src={require("../assets/img/headBanner.jpg")} />
-        </div>
-        <div className="tag-line">
-          <div>Healthy Fresh Green</div>
-          <div>Everyday we delivered to your place</div>
-        </div>
       </div>
 
       {/* grid pictures */}
