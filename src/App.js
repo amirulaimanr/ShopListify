@@ -11,13 +11,19 @@ import "/node_modules/primeflex/primeflex.css";
 import HeaderBar from "./components/HeaderBar";
 import MenuBar from "./components/MenuBar";
 
+import { Route, Routes } from "react-router-dom";
+
 function App() {
   return (
     <div className="App">
       <header>
         <HeaderBar></HeaderBar>
       </header>
-      <body></body>
+      <body>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </body>
     </div>
   );
 }
