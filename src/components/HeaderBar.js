@@ -9,8 +9,8 @@ class HeaderBar extends Component {
     return (
       <div className="card">
         <div className="relative card-container yellow-container">
-          <div className="block bg-yellow-200 font-bold text-center p-4 mb-3 h-7rem">
-            <div className="header-title">
+          <div className="block font-bold text-center p-4 h-7rem">
+            <div className="header-title text-black">
               <h2>ShopListify</h2>
             </div>
 
@@ -20,7 +20,7 @@ class HeaderBar extends Component {
                 <a href="www.google.com">
                   <i
                     className="pi pi-shopping-cart"
-                    style={{ fontSize: "2rem" }}
+                    style={{ fontSize: "2rem", color: "black" }}
                   ></i>
                 </a>
               </div>
@@ -30,8 +30,29 @@ class HeaderBar extends Component {
             <div className="card profile-container left-bar">
               <div className="account-logo logo">
                 <a href="www.google.com">
-                  <i className="pi pi-user" style={{ fontSize: "2rem" }}></i>
+                  <i
+                    className="pi pi-user"
+                    style={{ fontSize: "2rem", color: "black" }}
+                  ></i>
                 </a>
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="relative card-container green-container menu-container">
+              <div className="block font-bold text-center p-4 h-6rem">
+                <div className="menu-bar">
+                  <div className="menu container">
+                    <div className="menu-item">
+                      <ul>
+                        <li>Home</li>
+                        <li>Vegetables</li>
+                        <li>Fruits</li>
+                        <li>Rice/Grains</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

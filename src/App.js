@@ -16,7 +16,6 @@ function App() {
     <div className="App">
       <header>
         <HeaderBar></HeaderBar>
-        <MenuBar></MenuBar>
       </header>
       <body></body>
     </div>
