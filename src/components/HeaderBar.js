@@ -44,12 +44,12 @@ export default function HeaderBar() {
           {/* myaccount topbar */}
           <div className="card profile-container left-bar">
             <div className="account-logo logo">
-              <a href="www.google.com">
+              <Link to="/profile" style={{ textDecoration: "none" }}>
                 <i
                   className="pi pi-user"
                   style={{ fontSize: "2rem", color: "black" }}
                 ></i>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

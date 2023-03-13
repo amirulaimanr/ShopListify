@@ -15,7 +15,8 @@
 .header-title {
   display: block;
   font-size: 30px;
-  color: #628b03;
+  /* color: #628b03; */
+  color: black;
   margin-top: 15px;
 }
 
@@ -80,6 +81,10 @@ li {
   box-sizing: border-box;
   cursor: pointer;
   text-decoration: none;
+}
+
+li:hover {
+  color: black;
 }
 
 .banner-container img {

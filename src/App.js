@@ -15,6 +15,7 @@ import Vegetables from "./components/Vegetables";
 import Fruits from "./components/Fruits";
 import Rice from "./components/Rice";
 import Cart from "./components/Cart";
+import Profile from "./components/Profile";
 
 import { Route, Routes } from "react-router-dom";
 import React, { useState } from "react";
@@ -59,6 +60,7 @@ function App() {
       </header>
       <body>
         <Routes>
+          <Route path="/profile" element={<Profile />} />
           <Route
             path="/cart"
             element={
@@ -75,8 +77,14 @@ function App() {
             path="/vegetables"
             element={<Vegetables handleAddProduct={handleAddProduct} />}
           />
-          <Route path="/fruits" element={<Fruits />} />
-          <Route path="/rice" element={<Rice />} />
+          <Route
+            path="/fruits"
+            element={<Fruits handleAddProduct={handleAddProduct} />}
+          />
+          <Route
+            path="/rice"
+            element={<Rice handleAddProduct={handleAddProduct} />}
+          />
         </Routes>
       </body>
       <footer>

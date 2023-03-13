@@ -46,7 +46,7 @@ export default function Home() {
                 className="p-3 shadow-2 mb-3 inline-block"
                 style={{ borderRadius: "10px" }}
               >
-                <i className="pi pi-desktop text-4xl text-green-500"></i>
+                <i className="pi pi-thumbs-up-fill text-4xl text-green-500"></i>
               </span>
               <div className="text-900 text-xl mb-3 font-medium">
                 High-quality products
@@ -109,7 +109,7 @@ export default function Home() {
                 className="p-3 shadow-2 mb-3 inline-block"
                 style={{ borderRadius: "10px" }}
               >
-                <i className="pi pi-github text-4xl text-green-500"></i>
+                <i className="pi pi-heart-fill text-4xl text-green-500"></i>
               </span>
               <div className="text-900 text-xl mb-3 font-medium">
                 Sustainable sourcing

@@ -7,7 +7,7 @@ import "../assets/style/vegetables.css";
 
 import { Link } from "react-router-dom";
 
-export default function Fruits() {
+export default function Fruits({ handleAddProduct }) {
   const listItem = product_card.map((item) => (
     <div className="card-veg" key="{item.id}">
       <div className="card_img">
@@ -17,10 +17,12 @@ export default function Fruits() {
         <h2>{item.name}</h2>
         <p>{item.description}</p>
         <div className="price">
-          {item.price}
           <span>{item.currency}</span>
+          {item.price}
         </div>
-        <div className="btn">Add to cart</div>
+        <div className="btn" onClick={() => handleAddProduct(item)}>
+          Add to cart
+        </div>
       </div>
     </div>
   ));
