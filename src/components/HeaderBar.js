@@ -14,7 +14,7 @@ export default function HeaderBar() {
     const isActive = useMatch({ path: resolvedPath.pathname, end: true });
     return (
       <li className={isActive ? "active" : ""}>
-        <Link to={to} {...props}>
+        <Link to={to} {...props} style={{ textDecoration: "none" }}>
           {children}
         </Link>
       </li>
@@ -32,12 +32,12 @@ export default function HeaderBar() {
           {/* cart topbar */}
           <div className="card cart-container right-bar">
             <div className="cart-logo logo">
-              <a href="www.google.com">
+              <Link to="/cart" style={{ textDecoration: "none" }}>
                 <i
                   className="pi pi-shopping-cart"
                   style={{ fontSize: "2rem", color: "black" }}
                 ></i>
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -62,7 +62,7 @@ export default function HeaderBar() {
                 <div className="menu container">
                   <div className="menu-item">
                     <ul>
-                      <Link to="/">
+                      <Link to="/" style={{ textDecoration: "none" }}>
                         <li>Home</li>
                       </Link>
                       <CustomLink to="/vegetables">

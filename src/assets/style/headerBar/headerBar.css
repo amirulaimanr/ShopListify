@@ -60,6 +60,7 @@ nav {
   justify-content: space-between;
   width: 100%;
   color: white;
+  text-decoration: none;
 }
 ul {
   display: flex;
@@ -68,6 +69,7 @@ ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  text-decoration: none;
 }
 li {
   display: flex;
@@ -77,6 +79,7 @@ li {
   padding: 10px;
   box-sizing: border-box;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .banner-container img {
