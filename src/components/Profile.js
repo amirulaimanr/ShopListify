@@ -12,9 +12,10 @@ export default function Profile() {
       <div className="flex align-items-center justify-content-center ">
         <div className="surface-card p-4 shadow-2 border-round w-full lg:w-6 mt-6 mb-6">
           <div className="text-center mb-5 font-bold ">
-            <div className="text-center mb-5 font-bold text-900 text-3xl">
-              ShopListify
-            </div>
+            <img
+              className="logo-company"
+              src={require("../assets/img/logo.png")}
+            />
             <div className="text-900 text-3xl font-medium mb-3">
               Welcome Back
             </div>

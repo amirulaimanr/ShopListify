@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Button } from "primereact/button";
 import "primeicons/primeicons.css";
-
 import "../assets/style/headerBar/headerBar.css";
 
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
@@ -24,9 +23,13 @@ export default function HeaderBar() {
   return (
     <div className="card">
       <div className="relative card-container yellow-container">
-        <div className="block font-bold text-center p-4 h-7rem">
+        <div className="block font-bold text-center p-4 h-9rem">
+          <img
+            className="logo-company"
+            src={require("../assets/img/logo.png")}
+          />
           <div className="header-title text-black">
-            <div>ShopListify</div>
+            <div className="company-title">ShopListify</div>
           </div>
 
           {/* cart topbar */}

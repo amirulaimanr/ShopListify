@@ -57,14 +57,13 @@ export default function Cart({
                       className="cart-items-add"
                       onClick={() => handleAddProduct(item)}
                     >
-                      +
+                      <i className="pi pi-plus"></i>
                     </div>
                     <div
                       className="cart-items-remove"
                       onClick={() => handleRemoveProduct(item)}
                     >
-                      {" "}
-                      -{" "}
+                      <i className="pi pi-minus"></i>
                     </div>
                   </div>
                 </div>

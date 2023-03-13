@@ -3,6 +3,19 @@
   border: 1px solid #d600d9;
 }
 
+.logo-company {
+  display: inline-block;
+  text-align: center;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.company-title {
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
 .cart-container {
   display: block;
   width: 40px;
@@ -17,7 +30,6 @@
   font-size: 30px;
   /* color: #628b03; */
   color: black;
-  margin-top: 15px;
 }
 
 .card-container {
@@ -30,7 +42,7 @@
 
 .menu-content {
   background-color: #7bae00;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 .profile-container {
@@ -46,6 +58,23 @@
   width: auto;
   height: auto;
   text-align: center;
+  cursor: pointer;
+}
+
+.account-logo {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.cart-logo {
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.logo:hover {
+  display: block;
+  transform: scale(1.1);
+  opacity: 0.8;
 }
 
 .dFlex {
@@ -74,10 +103,11 @@ ul {
 }
 li {
   display: flex;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: bolder;
   color: white;
   margin-left: 55px;
-  padding: 10px;
+  padding: 5px;
   box-sizing: border-box;
   cursor: pointer;
   text-decoration: none;
@@ -85,6 +115,7 @@ li {
 
 li:hover {
   color: black;
+  transform: scale(1.1);
 }
 
 .banner-container img {

@@ -9,8 +9,8 @@ const product_card = [
   },
   {
     id: 2,
-    name: "Product 2",
-    description: "Bengal Gram Sprouts",
+    name: "Bengal Gram Sprouts",
+    description: "per kg",
     price: 2,
     currency: "RM",
     image: "https://img.crofarm.com/images/prodsmall/eabd66484d46.jpg",
