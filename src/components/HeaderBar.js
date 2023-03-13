@@ -72,7 +72,7 @@ export default function HeaderBar() {
                         <li>Fruits</li>
                       </CustomLink>
                       <CustomLink to="/rice">
-                        <li>Rice/Grains</li>
+                        <li>Rice/Sprouts</li>
                       </CustomLink>
                     </ul>
                   </div>
